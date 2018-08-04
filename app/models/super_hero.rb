@@ -1,5 +1,5 @@
 class SuperHero
-  belongs to :team
+  belongs_to :team
   attr_accessor :name, :power, :bio
   @@all = []
 
